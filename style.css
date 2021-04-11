@@ -1,0 +1,133 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+display: flex;
+justify-content: space-around;
+margin-left: auto;
+width: 200px;
+padding: 10px;
+font-size: 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 18px;
+    margin: 20px auto;
+}
+
+main {
+    width: 100%;
+    margin: 10px auto 180px auto;
+    text-align: center;
+    
+}
+
+main img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+main input {
+    width: 500px;
+    height: 25px;
+    padding: 10px 50px 10px 50px;
+    margin: 0px auto 30px auto;
+    border: 0.5px solid rgba(209, 206, 206, 0.623);
+    border-radius: 50px;
+    outline: none;
+}
+
+main i {
+    position: absolute;
+    right: 68%;
+    padding: 15px;
+    color: rgb(187, 186, 186);
+}
+
+#mic {
+    position: absolute;
+    left: 68%;
+    padding: 15px;
+}
+
+.button_click button {
+    border: rgba(209, 206, 206, 0.199);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: rgba(209, 206, 206, 0.199);
+    font-size: 15px;
+    outline: none;
+}
+
+.button_click button:hover {
+    background-color: rgba(209, 206, 206, 0.199);
+    box-shadow: 0px 1px 2px 0px gray;
+}
+
+.lang {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.lang a {
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: rgba(209, 206, 206, 0.199);
+    font-size: 15px;
+    margin: auto;
+}
+
+.footer1 {
+    padding: 1em 2em;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.footer2 {
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(209, 206, 206, 0.623);
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer2 a:hover {
+    text-decoration: underline;
+}
+
+
+.left a, .right a {
+    margin-right: 1em;
+    text-decoration: none;
+    color: gray;
+}
